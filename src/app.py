@@ -1,5 +1,5 @@
 from flask import Flask, request
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, reqparse
 from flask_jwt import JWT, jwt_required
 from security import authenticate, identity
 
@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Secret key to understand what was encrypted with JWT
 # The secret key should not be visible if you publish this code
 # In a production environment this should be something complicated
-app.secret_key = "kristiaan"
+app.secret_key = "RRikor"
 
 # The API allows to very easily add resources to it. And say things like:
 # for this resource you can GET and POST, for this other resource you can 
@@ -33,6 +33,16 @@ items = []
 # The API works with Resources and every Resource needs to be a class
 # Every class also needs to inherit from Resouce
 class Item(Resource):
+
+    # Request Parsing: RequestParser filters the JSON payload. It can also filter
+    # through HTML forms and do many more things. We only defined 
+    # price so any other arguments in the JSON payload will be erased.
+    parser = reqparse.RequestParser()
+    parser.add_argument('price',
+        type=float,                             # the price has to be a float
+        required=True,                          # price is a required attribute
+        help="This field cannot be left blank!"
+    )
 
     #Authorization required
     @jwt_required()
@@ -58,7 +68,9 @@ class Item(Resource):
         # not have an error. The request.get_json() will give an error.
         # get_json(force=True): Will ignore the header and scan the body for JSON
         # get_json(silent=True):
-        data = request.get_json(force=True)
+        # data = request.get_json(force=True)
+        # replaced the request.get_json() with the RequestParser()
+        data = Item.parser.parse_args()
         item = {
             'name': name,
             'price': data['price']
@@ -75,7 +87,8 @@ class Item(Resource):
         return {"message": "'{}' deleted".format(name)}
 
     def put(self, name):
-        data = request.get_json()
+        # Passes only the valid arguments into variable data
+        data = Item.parser.parse_args()
         item = next(filter(lambda x: x['name'] == name, items), None)
         if item is None:
             item = {
