@@ -1,8 +1,9 @@
-from flask import Flask, request
-from flask_restful import Resource, Api, reqparse
-from flask_jwt import JWT, jwt_required
+from flask import Flask
+from flask_restful import Api
+from flask_jwt import JWT
 from security import authenticate, identity
 from user import UserRegister
+from item import Item, ItemList
 
 # Creates an instance of Flask called app. And telling it where it is
 # located with __name__.
@@ -29,87 +30,15 @@ api = Api(app)
 jwt = JWT(app, authenticate, identity)
 
 # In memory database for examplary purposes
-items = []
-
-# The API works with Resources and every Resource needs to be a class
-# Every class also needs to inherit from Resouce
-class Item(Resource):
-
-    # Request Parsing: RequestParser filters the JSON payload. It can also filter
-    # through HTML forms and do many more things. We only defined 
-    # price so any other arguments in the JSON payload will be erased.
-    parser = reqparse.RequestParser()
-    parser.add_argument('price',
-        type=float,                             # the price has to be a float
-        required=True,                          # price is a required attribute
-        help="This field cannot be left blank!"
-    )
-
-    #Authorization required
-    @jwt_required()
-    def get(self, name):
-        # Filter function returns a filter object
-        # All items are unique so this filter will only return 1 item 
-        # Next returns the first item found by the filter function (when
-        # calling next again it gives the 2nd item, 3rd and so on)
-        # 
-        # next can cause an error and break the program if there are no more items left
-        # None parameter prevents this. When nothing found it will return None
-        item = next(filter(lambda x: x['name'] == name, items), None)
-        # Return value if item not found will be 404 (not found)
-        # Return code is a ternary if statement
-        return {'item': item}, 200 if item else 404
-
-    def post(self, name):
-        # If we found an item, and that item is not None: return message
-        if next(filter(lambda x: x['name'] == name, items), None):
-            return {'message': "Item '{}' already exists".format(name)}, 400
-
-        # If the request does not have the proper JSON payload or does
-        # not have an error. The request.get_json() will give an error.
-        # get_json(force=True): Will ignore the header and scan the body for JSON
-        # get_json(silent=True):
-        # data = request.get_json(force=True)
-        # replaced the request.get_json() with the RequestParser()
-        data = Item.parser.parse_args()
-        item = {
-            'name': name,
-            'price': data['price']
-        }
-        items.append(item)
-        return items[-1], 201
-
-    def delete(self, name):
-        # Overwrite items list with all elements except the one to be deleted
-        # global items means python will use the global items variable 
-        # for these instructions
-        global items
-        items = list(filter(lambda x: x['name'] != name, items))
-        return {"message": "'{}' deleted".format(name)}
-
-    def put(self, name):
-        # Passes only the valid arguments into variable data
-        data = Item.parser.parse_args()
-        item = next(filter(lambda x: x['name'] == name, items), None)
-        if item is None:
-            item = {
-                'name': name,
-                'price': data['price']
-            }
-            items.append(item)
-        else:
-            item.update(data)
-        return item
-
-
-class ItemList(Resource):
-    def get(self):
-        return {'items': items}
+# items = []
 
 api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
 api.add_resource(UserRegister, '/register')
 
-# debug=True will turn Flask error messaging on
-app.run(port=5000, debug=True)
+# When running a file it receives the name "__main__". Only 
+# the file you run receives this name. 
+if __name__ == "__main__":
+    # debug=True will turn Flask error messaging on
+    app.run(port=5000, debug=True)
 
