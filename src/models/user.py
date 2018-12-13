@@ -1,10 +1,17 @@
-# https://www.udemy.com/rest-api-flask-and-python/learn/v4/t/lecture/5960168?start=30
-# User object file
-
 import sqlite3
-from flask_restful import Resource, reqparse
+from db import db
 
-class User:
+# Extending db.Model to tell SQLAlchemy that this class
+# will save things to a db..
+class UserModel(db.Model):
+
+    # SQLAlchemy definitions for the table 'users'
+    # Properties not defined here will not be saved into the db
+    __tablename__="users"
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80))
+    password = db.Column(db.String(80))
+
     def __init__(self, _id, username, password):
         # id is a python keyword and we don't want to use that as a variable id. 
         # thus we use _id. But self.id works fine. 
@@ -16,6 +23,7 @@ class User:
     # not necessary, but slightly nicer.
     @classmethod
     def find_by_username(cls, username):
+
         connection = sqlite3.connect("src/data.db")
         cursor = connection.cursor()
 
@@ -54,39 +62,3 @@ class User:
 
         connection.close()
         return user
-
-class UserRegister(Resource):
-
-    # Using RequestParser() to parse the request
-    parser = reqparse.RequestParser()
-    parser.add_argument('username',
-        type=str
-        , required=True
-        , help="This field cannot be blank"
-        )
-    parser.add_argument('password',
-        type=str
-        , required=True
-        , help="This field cannot be blank"
-        )
-
-    def post(self):
-        # Parsing the request into data
-        data = UserRegister.parser.parse_args()
-
-        # Check if user already exists
-        if User.find_by_username(data['username']):
-            return {"message": "User already exists"}, 400 
-        else:
-            # Connecting to the database
-            connection = sqlite3.connect("src/data.db")
-            cursor = connection.cursor()
-            # Insert user into the database
-            # ID will be auto incremented, so we have to insert NULL
-            query = "INSERT INTO users VALUES (Null,?,?)"
-            # Tuple with username and password into queyr execute
-            cursor.execute(query, (data['username'], data['password']))
-            connection.commit()
-            connection.close()
-            return {"message": "User created succesfully"}, 201
-

@@ -2,12 +2,17 @@ from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT
 from security import authenticate, identity
-from user import UserRegister
-from item import Item, ItemList
+from resources.user import UserRegister
+from resources.item import Item, ItemList
 
 # Creates an instance of Flask called app. And telling it where it is
 # located with __name__.
 app = Flask(__name__)
+
+# Turning off the Flask SQLAlchemy Modification Tracker. It uses too
+# much resources to track changes to the database. SQLAlchemy itself has 
+# a better tracker.
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Secret key to understand what was encrypted with JWT
 # The secret key should not be visible if you publish this code
@@ -39,6 +44,10 @@ api.add_resource(UserRegister, '/register')
 # When running a file it receives the name "__main__". Only 
 # the file you run receives this name. 
 if __name__ == "__main__":
+    # db needs to be imported before the rest, hence the import
+    # inside the __main__
+    from db import db
+    db.init_app(app)
     # debug=True will turn Flask error messaging on
     app.run(port=5000, debug=True)
 
