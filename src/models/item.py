@@ -16,6 +16,7 @@ class ItemModel(db.Model):
     # inside table stores, for easy finding matching items-store combinations
     store_id = db.Column(db.Integer, db.ForeignKey('stores.id'))
     # This will create a SQL join between ItemModel and StoreModel
+    # This is a many to one relationship. Many items for 1 store.
     store = db.relationship('StoreModel')
 
     def __init__(self, name, price):
