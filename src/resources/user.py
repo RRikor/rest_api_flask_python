@@ -28,6 +28,15 @@ class UserRegister(Resource):
         if UserModel.find_by_username(data['username']):
             return {"message": "User already exists"}, 400 
         else:
+            # Method 1:
+            user = UserModel(data['username'], data['password'])
+            # Method 2: For each of the keys in data, pass all arguments. Possible
+            # because of using the parser. So arguments will always be the same.
+            user = UserModel(**data)
+
+
+            user.save_to_db()
+
             # Connecting to the database
             connection = sqlite3.connect("src/data.db")
             cursor = connection.cursor()

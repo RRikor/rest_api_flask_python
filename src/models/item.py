@@ -1,4 +1,3 @@
-import sqlite3
 from db import db
 
 # Extending db.Model to tell SQLAlchemy that this class
@@ -23,35 +22,13 @@ class ItemModel(db.Model):
     # an object of type ItemModel
     @classmethod
     def find_by_name(cls, name):
-
         # works like: "SELECT * FROM items where name = ? LIMIT 1"
-        return ItemModel.query.filter_by(name=name).first()
+        return cls.query.filter_by(name=name).first()
 
-        connection = sqlite3.connect('src/data.db')
-        cursor = connection.cursor()
-        result = cursor.execute(query, (name,))
-        row = result.fetchone()
-        connection.close()
-        if row:
-            # method 1
-            # return cls(row[0], row[1])
-            # method 2: argument unpacking: passing all arguments
-            return cls(*row)
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
-    def insert(self):
-        # Connect to the database to insert the item
-        connection = sqlite3.connect('src/data.db')
-        cursor = connection.cursor()
-        query = "INSERT INTO items VALUES (?,?)"
-        cursor.execute(query, (self.name, self.price))
-        connection.commit()
-        connection.close()
-
-    def update(self):
-        
-        connection = sqlite3.connect('src/data.db')
-        cursor = connection.cursor()
-        query = "UPDATE items set price=? WHERE name=?"
-        cursor.execute(query, (self.price, self.name))
-        connection.commit()
-        connection.close()
+    def delete_from_db(self):
+        db.session.delete(self)
+        db.session.commit()

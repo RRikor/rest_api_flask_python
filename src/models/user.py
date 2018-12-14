@@ -1,4 +1,3 @@
-import sqlite3
 from db import db
 
 # Extending db.Model to tell SQLAlchemy that this class
@@ -12,10 +11,11 @@ class UserModel(db.Model):
     username = db.Column(db.String(80))
     password = db.Column(db.String(80))
 
-    def __init__(self, _id, username, password):
+    def __init__(self, username, password):
         # id is a python keyword and we don't want to use that as a variable id. 
         # thus we use _id. But self.id works fine. 
-        self.id = _id
+        # self.id = _id
+        # By using sqlalchemy it is not necessary to supply an ID here
         self.username = username
         self.password = password
 
@@ -23,42 +23,18 @@ class UserModel(db.Model):
     # not necessary, but slightly nicer.
     @classmethod
     def find_by_username(cls, username):
-
-        connection = sqlite3.connect("src/data.db")
-        cursor = connection.cursor()
-
-        query = "SELECT * FROM users WHERE username=?"
-        # The value to execute always has to be a tuple. The only way to make 
-        # a tuple with a single element is with a comma, to tell python that this 
-        # is not a useless pair of brackets.
-        result = cursor.execute(query, (username,))
-        # If there are no rows, result.fetchone() will return None
-        row = result.fetchone()
-        if row:
-            # Create a user object with data from the row
-            # method 1: use the location in row
-            # user = cls(row[0], row[1], row[2])
-            # method 2: pass it as a set of positional arguments
-            user = cls(*row)
-        else:
-            user = None
-
-        connection.close()
-        return user
+        # filter_by: first username = db, second username is function parameter
+        # first() returns the first row
+        return cls.query.filter_by(username=username).first()
 
     # Copy paste from find_by_username, adapted to kd
     @classmethod
     def find_by_id(cls, _id):
-        connection = sqlite3.connect("src/data.db")
-        cursor = connection.cursor()
+        # filter_by: first id= db, second _id is function parameter
+        # first() returns the first row
+        return cls.query.filter_by(id=_id).first()
 
-        query = "SELECT * FROM users WHERE id=?"
-        result = cursor.execute(query, (_id,))
-        row = result.fetchone()
-        if row:
-            user = cls(*row)
-        else:
-            user = None
+    def save_to_db(self):
+        db.session.add(self)
+        db.session.commit()
 
-        connection.close()
-        return user
