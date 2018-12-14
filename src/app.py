@@ -4,6 +4,7 @@ from flask_jwt import JWT
 from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, ItemList
+from resources.store import Store, StoreList
 from db import db
 
 # Creates an instance of Flask called app. And telling it where it is
@@ -17,6 +18,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 # much resources to track changes to the database. SQLAlchemy itself has 
 # a better tracker.
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# Initialize SQLAlchemy
 db.init_app(app)
 
 # Secret key to understand what was encrypted with JWT
@@ -50,6 +52,8 @@ jwt = JWT(app, authenticate, identity)
 
 api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
+api.add_resource(Store, '/store/<string:name>')
+api.add_resource(StoreList, '/stores')
 api.add_resource(UserRegister, '/register')
 
 # When running a file it receives the name "__main__". Only 

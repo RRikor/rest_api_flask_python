@@ -19,9 +19,10 @@ class ItemModel(db.Model):
     # This is a many to one relationship. Many items for 1 store.
     store = db.relationship('StoreModel')
 
-    def __init__(self, name, price):
+    def __init__(self, name, price, store_id):
         self.name = name
         self.price = price
+        self.store_id = store_id    # id for StoreModel to make sure it gets in the DB
 
     def json(self):
         return {'name': self.name, 'price': self.price}

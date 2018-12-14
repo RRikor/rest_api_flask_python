@@ -11,13 +11,17 @@ class StoreModel(db.Model):
     # This will create a SQL join between ItemModel and StoreModel
     # This is a many to one relationship. Many items for 1 store.
 
+    # The lazy='dynamic' tells SQLAlchemy to make the backref lazy and a dynamic 
+    # loading one. In that case accessing the table will be a query object 
+    # you can further refine instead of directly firing the query and returning a list.
+    # from: http://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/
     items = db.relationship('ItemModel', lazy='dynamic')
 
-    def __init__(self, name, price):
+    def __init__(self, name):
         self.name = name 
  
     def json(self):
-        return {'name': self.name, [item.json() for item in self.items.all()]}
+        return {'name': self.name, 'items': [item.json() for item in self.items.all()]}
 
     @classmethod
     def find_by_name(cls, name):
