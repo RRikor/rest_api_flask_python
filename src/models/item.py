@@ -11,6 +11,13 @@ class ItemModel(db.Model):
     name = db.Column(db.String(80))
     price = db.Column(db.Float(precision=2))    # Floating point number with 2 decimals
 
+    # Added for store.py
+    # Creating a foreign key inside table items that matches the id 
+    # inside table stores, for easy finding matching items-store combinations
+    store_id = db.Column(db.Integer, db.ForeignKey('stores.id'))
+    # This will create a SQL join between ItemModel and StoreModel
+    store = db.relationship('StoreModel')
+
     def __init__(self, name, price):
         self.name = name
         self.price = price
