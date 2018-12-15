@@ -14,7 +14,7 @@ class Store(Resource):
     def post(self, name):
         # Check if the name of the store is already taken
         if StoreModel.find_by_name(name):
-            return {'message:' "Store name '{}' is already taken".format(name)}, 400
+            return {'message:': "Store name '{}' is already taken".format(name)}, 400
         store = StoreModel(name)
         try:
             store.save_to_db()

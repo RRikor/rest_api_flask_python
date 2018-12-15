@@ -1,3 +1,4 @@
-/.vscode/*
-/env/*
-/src/__pycache__/*
+/.vscode/
+/env/
+/src/__pycache__/
+*.pyc
