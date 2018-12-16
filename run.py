@@ -1,8 +1,8 @@
 # https://www.udemy.com/rest-api-flask-and-python/learn/v4/t/lecture/6038450?start=0
 # File created to fix database importing issues in Heroku
 
-from app import app
-from db import db
+import app
+import db
 
 # Initialize SQLAlchemy
 db.init_app(app)
