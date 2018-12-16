@@ -18,8 +18,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 # much resources to track changes to the database. SQLAlchemy itself has 
 # a better tracker.
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# Initialize SQLAlchemy
-db.init_app(app)
 
 # Secret key to understand what was encrypted with JWT
 # The secret key should not be visible if you publish this code
@@ -30,12 +28,6 @@ app.secret_key = "RRikor"
 # for this resource you can GET and POST, for this other resource you can 
 # GET and DELETE and so on. 
 api = Api(app)
-
-# Like it says, run this before the first request
-# Create the database and create the tables unless they exist already
-@app.before_first_request
-def create_tables():
-    db.create_all()
 
 # The JWT object uses app, authenticate and identity functions together to 
 # allow for authentication. JWT creates a new endpoint: '/auth'
