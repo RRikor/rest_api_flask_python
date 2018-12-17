@@ -4,3 +4,5 @@ Flask-JWT
 Flask-SQLAlchemy
 uwsgi
 werkzeug
+# psychop2 is a very popular python library to communicate with postgres, used by SQLAlchemy 
+psychopg2

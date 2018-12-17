@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT
@@ -16,8 +17,9 @@ def create_tables():
     db.create_all()
 
 # Tell SQLAlchemy where the database is located: At the root folder of
-# the project.
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+# the project. Uses environment variable from the os libraryl. If not found
+# it will use the sqlite database.
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///data.db')
 # Turning off the Flask SQLAlchemy Modification Tracker. It uses too
 # much resources to track changes to the database. SQLAlchemy itself has 
 # a better tracker.
