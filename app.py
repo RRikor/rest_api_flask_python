@@ -11,10 +11,6 @@ from db import db
 # Creates an instance of Flask called app. And telling it where it is
 # located with __name__.
 app = Flask(__name__)
-# db.init_app(app)
-# @app.before_first_request
-# def create_tables():
-#     db.create_all()
 
 # Tell SQLAlchemy where the database is located: At the root folder of
 # the project. Uses environment variable from the os libraryl. If not found
@@ -34,6 +30,10 @@ app.secret_key = "RRikor"
 # for this resource you can GET and POST, for this other resource you can 
 # GET and DELETE and so on. 
 api = Api(app)
+
+@app.before_first_request
+def create_tables():
+    db.create_all()
 
 # The JWT object uses app, authenticate and identity functions together to 
 # allow for authentication. JWT creates a new endpoint: '/auth'
@@ -56,12 +56,14 @@ api.add_resource(UserRegister, '/register')
 
 # When running a file it receives the name "__main__". Only 
 # the file you run receives this name. 
-#if __name__ == "__main__":
+if __name__ == "__main__":
 
 # https://stackoverflow.com/questions/30764073/sqlalchemy-extension-isnt-registered-when-running-app-with-gunicorn
 # Not working to initialze with __name__ == "__main__"
 # db import and db.init_app(app) moved to the top of the file.
 
 # debug=True will turn Flask error messaging on
-app.run(port=5000, debug=True)
+    from db import db
+    db.init_app(app)
+    app.run(port=5000, debug=True)
 
