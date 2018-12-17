@@ -11,10 +11,10 @@ from db import db
 # Creates an instance of Flask called app. And telling it where it is
 # located with __name__.
 app = Flask(__name__)
-db.init_app(app)
-@app.before_first_request
-def create_tables():
-    db.create_all()
+# db.init_app(app)
+# @app.before_first_request
+# def create_tables():
+#     db.create_all()
 
 # Tell SQLAlchemy where the database is located: At the root folder of
 # the project. Uses environment variable from the os libraryl. If not found
