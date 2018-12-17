@@ -1,0 +1,1911 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:13 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x230c500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:20 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x2327500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:26 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x9af500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:33 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1a6a500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:39 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xe7e500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:48 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x26d5500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:58 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x15fc500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:20:07 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x232f500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:20:19 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xc15500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:20:32 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1499500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:20:44 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xf07500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:21:00 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1ab3500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:21:15 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x24c1500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:21:30 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1c60500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:21:49 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x109c500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:22:07 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x19b4500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:22:26 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1c77500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:22:47 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1ec8500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:23:08 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x15d3500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:23:30 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xabd500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:23:54 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x2439500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:24:18 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1542500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:24:43 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x161e500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:25:10 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1c72500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:25:38 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x19fe500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:26:05 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x14fd500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:26:35 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x8b2500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:27:06 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x2628500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:27:36 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xed9500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:28:10 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1bf4500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:28:43 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x2046500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:29:16 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xf95500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:29:53 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xf57500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:30:29 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xb9b500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:31:06 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1727500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:31:45 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x15d7500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:32:25 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xa5a500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:33:04 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x2513500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:33:46 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x161e500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:34:29 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0xfd9500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:35:11 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x847500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:35:57 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1c3d500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:36:42 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x141e500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:37:27 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1172500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:38:16 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x20a7500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:39:04 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x18dc500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:39:53 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x14e6500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:40:44 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x2121500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:41:36 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 3897
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/html/items-rest/socket.sock fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /var/www/html/items-rest/env
+Python main interpreter initialized at 0x1c0e500
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1315008 bytes (1284 KB) for 64 cores
+*** Operational MODE: preforking+threaded ***
+added /var/www/html/items-rest/ to pythonpath.
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:774: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+  'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+/var/www/html/items-rest/env/lib/python3.5/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+*** has_emperor mode detected (fd: 6) ***
+unable to load configuration from uwsgi

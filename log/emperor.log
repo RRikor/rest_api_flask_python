@@ -1,0 +1,221 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Dec 17 16:19:13 2018] ***
+compiled with version: 5.4.0 20160609 on 17 December 2018 12:00:26
+os: Linux-4.4.0-140-generic #166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018
+nodename: ubuntu-s-1vcpu-1gb-ams3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/items-rest/env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 1000
+setuid() to 1000
+your processes number limit is 3897
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f367e0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 16635)
+Mon Dec 17 16:19:14 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16639)
+Mon Dec 17 16:19:17 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:20 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16644)
+Mon Dec 17 16:19:23 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:27 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16647)
+Mon Dec 17 16:19:30 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:30 2018 - [emperor] unloyal bad behaving vassal found: /var/www/html/items-rest/uwsgi.ini throttling it...
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:33 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16652)
+Mon Dec 17 16:19:36 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:39 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16656)
+Mon Dec 17 16:19:42 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:49 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16672)
+Mon Dec 17 16:19:52 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:19:58 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16676)
+Mon Dec 17 16:20:01 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:20:07 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16679)
+Mon Dec 17 16:20:10 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:20:20 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16683)
+Mon Dec 17 16:20:23 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:20:32 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16686)
+Mon Dec 17 16:20:35 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:20:45 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16692)
+Mon Dec 17 16:20:48 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:21:00 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16698)
+Mon Dec 17 16:21:03 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:21:15 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16712)
+Mon Dec 17 16:21:18 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:21:31 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16715)
+Mon Dec 17 16:21:34 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:21:49 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16721)
+Mon Dec 17 16:21:52 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:22:08 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16726)
+Mon Dec 17 16:22:11 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:22:26 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16730)
+Mon Dec 17 16:22:29 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:22:47 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16734)
+Mon Dec 17 16:22:50 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:23:09 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16739)
+Mon Dec 17 16:23:12 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:23:30 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16748)
+Mon Dec 17 16:23:33 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:23:54 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16752)
+Mon Dec 17 16:23:57 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:24:19 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16760)
+Mon Dec 17 16:24:22 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:24:43 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16783)
+Mon Dec 17 16:24:46 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:25:11 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16790)
+Mon Dec 17 16:25:14 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:25:38 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16796)
+Mon Dec 17 16:25:41 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:26:05 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16806)
+Mon Dec 17 16:26:08 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:26:36 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16814)
+Mon Dec 17 16:26:39 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:27:06 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16829)
+Mon Dec 17 16:27:09 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:27:37 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16835)
+Mon Dec 17 16:27:40 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:28:10 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16839)
+Mon Dec 17 16:28:13 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:28:43 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16876)
+Mon Dec 17 16:28:46 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:29:17 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16883)
+Mon Dec 17 16:29:20 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:29:53 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16889)
+Mon Dec 17 16:29:56 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:30:30 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16895)
+Mon Dec 17 16:30:33 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:31:06 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16901)
+Mon Dec 17 16:31:09 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:31:45 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16910)
+Mon Dec 17 16:31:48 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:32:25 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16916)
+Mon Dec 17 16:32:28 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:33:04 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16922)
+Mon Dec 17 16:33:07 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:33:47 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16929)
+Mon Dec 17 16:33:50 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:34:29 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16937)
+Mon Dec 17 16:34:32 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:35:12 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16944)
+Mon Dec 17 16:35:15 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:35:57 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16953)
+Mon Dec 17 16:36:00 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:36:42 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16959)
+Mon Dec 17 16:36:45 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:37:28 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16966)
+Mon Dec 17 16:37:31 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:38:16 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16973)
+Mon Dec 17 16:38:19 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:39:05 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16981)
+Mon Dec 17 16:39:08 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:39:53 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 16998)
+Mon Dec 17 16:39:56 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:40:45 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 17007)
+Mon Dec 17 16:40:48 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from /var/www/html/items-rest/uwsgi.ini
+Mon Dec 17 16:41:36 2018 - [emperor] curse the uwsgi instance /var/www/html/items-rest/uwsgi.ini (pid: 17020)
+Mon Dec 17 16:41:39 2018 - [emperor] removed uwsgi instance /var/www/html/items-rest/uwsgi.ini
